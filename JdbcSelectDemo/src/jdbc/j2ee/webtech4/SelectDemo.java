@@ -25,7 +25,7 @@ public class SelectDemo {
 		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbc_db","root","april22");
 		System.out.println("Step 2: Connection created successful");
 				
-		PreparedStatement ps = con.prepareStatement("select * from rregister");
+		PreparedStatement ps = con.prepareStatement("select * from register");
 		//ps.setString(1, v_city);
 		//ps.setString(1, v_email);
 		//System.out.println("Enter your Educational Degree -> ");
